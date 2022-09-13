@@ -12,13 +12,13 @@ private: ignore private file, directory and respect .nomedia,  default  False.
 
 p = PickUI(private=True)
 p.set_title("my app")
-file = p.filesPicker()
+file = p.filePicker()
 print(file)
-folder = p.foldersPicker()
+folder = p.folderPicker()
 print(folder)
 # file picker with extension filter
 ext = (".jpg",".png",".gif",".jpeg",)
-file2 = p.filesPicker(filter=ext)
+file2 = p.filePicker(filter=ext)
 print(file2)
 ```
 
