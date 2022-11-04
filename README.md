@@ -1,5 +1,11 @@
 PICKUI is advance file and folder picker for qpython, [inspired](https://stackoverflow.com/questions/37795626/file-dialog-in-python-sl4a).
 
+### Installation
+
+```
+pip install https://github.com/guangrei/pickui/archive/main.zip
+```
+
 ### Example 
 
 ```python
